@@ -18,7 +18,7 @@ if(isset($_SESSION['id'])){
 	
 	return $content;
 }else{
-	$content = '{{title: "Объявления"}}{{logout: "<a href="/auth">войти</a>"}}{{login: "Гость"}}Авторизуйся педик!!!';
+	$content = '{{title: "Объявления"}}{{logout: "<a href="/auth">войти</a>"}}{{login: "Гость"}}Вам необходимо авторизоваться!!!';
 	
 	return $content;
 }
